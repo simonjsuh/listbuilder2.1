@@ -1,0 +1,129 @@
+/* fonts*/
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+/* CSS */
+html, body {
+  font-family: ProximaNova, arial, sans-serif;
+  background-color: #eff3f6;
+}
+
+/* Left sidebar CSS */
+#left-sidebar {
+  position: fixed;
+  width: 270px;
+  height: 100%;
+  background-color: #1E262E;
+}
+#left-sidebar .header {
+  height: 66px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  background-color: #161b21;
+}
+#left-sidebar .header .title {
+  width: 220px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+#left-sidebar .header h1 {
+  font-size: 160%;
+  margin: 0;
+  display: inline-block;
+}
+#left-sidebar .header .title-icon {
+  font-size: 140%;
+  float: right;
+}
+#left-sidebar .navbar ul {
+  width: 100%;
+}
+#left-sidebar .navbar li {
+  float: none;
+  display: block;
+  background-color: #1E262E;
+}
+#left-sidebar .navbar li a {
+  font-size: 115%;
+  padding-left: 30px;
+  color: #f1f1f1;
+  line-height: 100%;
+  background-color: #1E262E;
+}
+#left-sidebar .navbar li a:hover {
+  border-left: 5px solid #f25333;
+  color: #505d6a;
+  background-color: #fff;
+}
+#left-sidebar .navbar li a .glyphicon {
+  font-size: 90%;
+  color: #505d6a;
+  margin-right: 20px;
+}
+#left-sidebar .navbar {
+  border: none;
+}
+#left-sidebar .navbar-default {
+  border-radius: 0px;
+}
+#left-sidebar #menu2 {
+  padding-top: 30px;
+}
+#left-sidebar #menu2 a {
+  padding: 0 38px;
+  font-size: 88%;
+  display: block;
+  text-transform: uppercase;
+  color: #b7becc;
+}
+#left-sidebar #menu2 a span {
+  float: right;
+  font-size: 75%;
+}
+#leftSidebarEndHR {
+  width: 75%;
+  border-color: #2b2d30;
+  margin-top: 16px;
+}
+
+/* main menu area */
+#admin-panel {
+  background-color: #eff3f6;
+  margin-left: 270px;
+}
+#top-menu-bar {
+  height: 66px;
+  background-color: #fff;
+  border-bottom: 1px solid #DFE2E5;
+}
+#user_menu {
+  float: right;
+  margin-top: 15px;
+  margin-right: 28px;
+}
+#user_menu #user_profile_img {
+  height: 35px;
+  width: 35px;
+  margin-right: 6px;
+  border-radius: 100px;
+}
+#user_menu .glyphicon-menu-down {
+  font-size: 60%;
+  color: #b7becc;
+}
+#breadcrumbs {
+  padding: 15px;
+}
+#breadcrumbs .glyphicon-menu-right {
+  color: #a7adb9;
+  font-size: 60%;
+}
+#breadcrumbs a {
+  color: #a7adb9;
+  margin: 0 10px;
+}
+#breadcrumbs a.chosen {
+  color: #676a6f;
+}

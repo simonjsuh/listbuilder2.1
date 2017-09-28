@@ -1,0 +1,6 @@
+.tab-checklist {
+  display: none;
+}
+#checklists .active {
+  display: block;
+}
